@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Diz ao Tailwind onde procurar as classes: todos os .php do projeto */
+@source "../**/*.php";
+
+/* Cores/fontes personalizadas (opcional) */
+@theme {
+  --color-marca: #2563eb;
+}
